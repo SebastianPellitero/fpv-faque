@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+/* ─── Design tokens ─────────────────────────────────────────────── */
+@theme {
+  /* Night mode (default) */
+  --color-background: #161616;
+  --color-surface:    #1f1f1f;
+  --color-border:     #2e2e2e;
+  --color-foreground: #f0ede8;
+  --color-muted:      #888888;
+  --color-accent:     #00ffcc;
+  --color-accent-dim: rgba(0, 255, 204, 0.15);
+
+  /* Typography */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+
+  /* Spacing / sizing helpers */
+  --navbar-height: 4rem;
+}
+
+/* Bright mode overrides */
+[data-theme="bright"] {
+  --color-background: #f4f1ec;
+  --color-surface:    #ffffff;
+  --color-border:     #ddd8d0;
+  --color-foreground: #111111;
+  --color-muted:      #666666;
+  --color-accent:     #0052cc;
+  --color-accent-dim: rgba(0, 82, 204, 0.12);
+}
+
+/* ─── Tailwind dark: variant — maps to night theme ───────────────── */
+@variant dark (&:where([data-theme="night"], [data-theme="night"] *));
+
+/* ─── Base resets ─────────────────────────────────────────────────── */
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  /* Hide scrollbar but keep functionality */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-background);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-muted);
+  }
+}
+
+/* Drone cursor — hide native cursor only after DroneCursor has mounted */
+html.drone-cursor-active,
+html.drone-cursor-active * {
+  cursor: none !important;
+}
+
+/* ─── Utilities ───────────────────────────────────────────────────── */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .section-padding {
+    padding-inline: clamp(1.5rem, 5vw, 6rem);
+    padding-block: clamp(4rem, 8vw, 8rem);
+  }
+}

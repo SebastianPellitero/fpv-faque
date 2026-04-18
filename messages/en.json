@@ -1,0 +1,59 @@
+{
+    "nav": {
+        "work": "Work",
+        "contact": "Contact",
+        "brand": "La pagina del faque"
+    },
+    "hero": {
+        "headline": "Follow me to see the world from a new perspective",
+        "sub": "Cinematic FPV drone videography"
+    },
+    "cinematic": {
+        "tagline": "This is just the beginning"
+    },
+    "work": {
+        "sectionTitle": "Selected Work",
+        "videos": [
+            {
+                "id": "dQw4w9WgXcQ",
+                "description": "Mountain ridge flythrough — Pyrenees, 2024"
+            },
+            {
+                "id": "aoh39036Jos",
+                "description": "Coastal sunset dive — Costa Brava, 2024"
+            },
+            {
+                "id": "lzmWzXLPa6I",
+                "description": "Urban canyon racing — Barcelona, 2025"
+            },
+            {
+                "id": "uXIs-L8wB5s",
+                "description": "Forest trail follow-cam — Montseny, 2025"
+            }
+        ]
+    },
+    "seo": {
+        "title": "Cinematic FPV Drone Videography",
+        "description": "FPV drone filmmaker capturing the world from a new perspective. Cinematic aerial videography for brands, events, and productions.",
+        "ogImageAlt": "FPV drone in flight over mountain landscape"
+    },
+    "contact": {
+        "heading": "Want to be part of this?",
+        "subheading": "Let's create something extraordinary together.",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send message",
+        "sending": "Sending…",
+        "success": "Message sent! I'll be in touch soon.",
+        "namePlaceholder": "Your name",
+        "emailPlaceholder": "your@email.com",
+        "messagePlaceholder": "Tell me about your project…",
+        "errors": {
+            "nameRequired": "Name is required",
+            "emailInvalid": "Enter a valid email address",
+            "messageRequired": "Message is required",
+            "messageTooShort": "Message must be at least 10 characters"
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "nav": {
+        "work": "Trabajos",
+        "contact": "Contacto",
+        "brand": "La pagina del faque"
+    },
+    "hero": {
+        "headline": "Sígueme y ve el mundo desde una nueva perspectiva",
+        "sub": "Videografía cinemática con dron FPV"
+    },
+    "cinematic": {
+        "tagline": "Esto es solo el principio"
+    },
+    "work": {
+        "sectionTitle": "Trabajos seleccionados",
+        "videos": [
+            {
+                "id": "dQw4w9WgXcQ",
+                "description": "Sobrevuelo de cresta montañosa — Pirineos, 2024"
+            },
+            {
+                "id": "aoh39036Jos",
+                "description": "Buceo al atardecer costero — Costa Brava, 2024"
+            },
+            {
+                "id": "lzmWzXLPa6I",
+                "description": "Racing por cañón urbano — Barcelona, 2025"
+            },
+            {
+                "id": "uXIs-L8wB5s",
+                "description": "Cámara de seguimiento en bosque — Montseny, 2025"
+            }
+        ]
+    },
+    "seo": {
+        "title": "Videografía Cinemática con Dron FPV",
+        "description": "Cineasta con dron FPV que captura el mundo desde una nueva perspectiva. Videografía aérea cinemática para marcas, eventos y producciones.",
+        "ogImageAlt": "Dron FPV en vuelo sobre paisaje montañoso"
+    },
+    "contact": {
+        "heading": "¿Quieres ser parte de esto?",
+        "subheading": "Creemos algo extraordinario juntos.",
+        "name": "Nombre",
+        "email": "Correo",
+        "message": "Mensaje",
+        "send": "Enviar mensaje",
+        "sending": "Enviando…",
+        "success": "¡Mensaje enviado! Me pondré en contacto pronto.",
+        "namePlaceholder": "Tu nombre",
+        "emailPlaceholder": "tu@correo.com",
+        "messagePlaceholder": "Cuéntame sobre tu proyecto…",
+        "errors": {
+            "nameRequired": "El nombre es obligatorio",
+            "emailInvalid": "Introduce un correo válido",
+            "messageRequired": "El mensaje es obligatorio",
+            "messageTooShort": "El mensaje debe tener al menos 10 caracteres"
+        }
+    }
+}
