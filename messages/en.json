@@ -38,6 +38,9 @@
         "ogImageAlt": "FPV drone in flight over mountain landscape"
     },
     "contact": {
+        "connectWith": "Connect with me",
+        "scrollToContinue": "Scroll to continue",
+        "letsTalk": "Let's talk",
         "heading": "Want to be part of this?",
         "subheading": "Let's create something extraordinary together.",
         "name": "Name",

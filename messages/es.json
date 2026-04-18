@@ -38,6 +38,9 @@
         "ogImageAlt": "Dron FPV en vuelo sobre paisaje montañoso"
     },
     "contact": {
+        "connectWith": "Conéctate conmigo",
+        "scrollToContinue": "Desplázate para continuar",
+        "letsTalk": "Hablemos",
         "heading": "¿Quieres ser parte de esto?",
         "subheading": "Creemos algo extraordinario juntos.",
         "name": "Nombre",
