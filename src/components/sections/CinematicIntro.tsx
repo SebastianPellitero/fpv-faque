@@ -51,7 +51,7 @@ export function CinematicIntro() {
     return (
         <section
             ref={sectionRef}
-            className='relative h-screen overflow-hidden flex items-center justify-center'
+            className='relative h-screen min-h-svh overflow-hidden flex items-center justify-center'
         >
             {/* Cinematic overlay — darker than hero */}
             <div className='absolute inset-0 bg-black/60 z-10' />

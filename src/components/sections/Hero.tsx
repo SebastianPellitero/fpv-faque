@@ -70,12 +70,9 @@ export function Hero() {
     );
 
     return (
-        <section
-            ref={sectionRef}
-            className='relative h-screen overflow-hidden flex items-center justify-center'
-        >
-            {/* Dark cinematic overlay */}
-            <div className='absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80 z-10' />
+        <section ref={sectionRef} className='relative min-h-svh flex flex-col'>
+            {/* Dark cinematic overlay — overflow-hidden here clips the bg, not the content */}
+            <div className='absolute inset-0 overflow-hidden bg-gradient-to-b from-black/70 via-black/40 to-black/80 z-10' />
             {/* Background video — replace src with actual file when available
             <VideoBackground
                 src='/videos/hero-loop.mp4'
@@ -83,40 +80,38 @@ export function Hero() {
                 poster='/images/hero-poster.jpg'
             /> */}
             {/* Content */}
-            <div className='relative z-20 text-center px-6 max-w-4xl'>
-                <h1
-                    ref={headlineRef}
-                    className='text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white leading-tight text-balance mb-6'
-                    style={{ perspective: '800px' }}
-                >
-                    {words.map((word, i) => (
-                        <span key={i} className='word inline-block mr-[0.25em]'>
-                            {word}
-                        </span>
-                    ))}
-                </h1>
-
-                <p
-                    ref={subRef}
-                    className='text-base md:text-lg text-white/60 uppercase tracking-[0.2em] mb-10'
-                >
-                    {t('sub')}
-                </p>
-
-                <a
-                    ref={ctaRef}
-                    href='#work'
-                    className='inline-block px-8 py-3 border border-white/30 text-white text-sm tracking-widest uppercase hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] transition-all duration-300'
-                >
-                    {t('sub')}
-                </a>
+            <div
+                className='relative z-20 flex-1 flex items-center justify-center text-center px-6'
+                style={{ paddingTop: 'var(--navbar-height)' }}
+            >
+                <div className='max-w-4xl'>
+                    <h1
+                        ref={headlineRef}
+                        className='text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white leading-tight text-balance mb-6'
+                        style={{ perspective: '800px' }}
+                    >
+                        {words.map((word, i) => (
+                            <span key={i} className='word inline-block mr-[0.25em]'>
+                                {word}
+                            </span>
+                        ))}
+                    </h1>
+                    <a
+                        ref={ctaRef}
+                        href='#work'
+                        className='inline-block px-8 py-3 border border-white/30 text-white text-sm tracking-widest uppercase hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] transition-all duration-300'
+                    >
+                        {t('sub')}
+                    </a>
+                </div>
             </div>
-            {/* Scroll indicator */}
-            <div className='absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 opacity-50'>
+
+            {/* Scroll indicator — fixed height row so flex layout always reserves space for it */}
+            <div className='relative z-20 h-24 flex flex-col items-center justify-end gap-2 opacity-50 pb-6'>
                 <span className='text-white text-xs tracking-[0.3em] uppercase'>
                     Scroll
                 </span>
-                <div className='w-px h-12 bg-white/40 animate-pulse' />
+                <div className='w-px h-8 bg-white/40 animate-pulse' />
             </div>
         </section>
     );
