@@ -10,11 +10,9 @@ export function LocaleSwitcher() {
     const next = locale === 'en' ? 'es' : 'en';
 
     function toggle() {
+        const next = locale === 'en' ? 'es' : 'en';
         const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-        const cleanPathname = pathname.startsWith(basePath)
-            ? pathname.slice(basePath.length)
-            : pathname;
-        router.replace(cleanPathname || '/', { locale: next });
+        window.location.href = `${basePath}/${next}`;
     }
 
     return (
