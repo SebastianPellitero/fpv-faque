@@ -4,6 +4,7 @@ import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import { gsap, ScrollTrigger } from '@/lib/gsap-init';
 import { useTranslations } from 'next-intl';
+import { assetUrl } from '@/lib/assets';
 import { VideoBackground } from '@/components/ui/VideoBackground';
 
 export function CinematicIntro() {
@@ -56,9 +57,9 @@ export function CinematicIntro() {
             <div className='absolute inset-0 bg-black/60 z-10' />
 
             <VideoBackground
-                src='/videos/cinematic-bg.mp4'
-                webmSrc='/videos/cinematic-bg.webm'
-                poster='/images/cinematic-poster.jpg'
+                src={assetUrl('/videos/cinematic-bg.mp4')}
+                webmSrc={assetUrl('/videos/cinematic-bg.webm')}
+                poster={assetUrl('/images/cinematic-poster.jpg')}
             />
 
             {/* Parallax text layer */}
