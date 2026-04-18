@@ -4,7 +4,7 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const nextConfig: NextConfig = {
-    assetPrefix: '/fpv-faque',
+    assetPrefix: process.env.NODE_ENV === 'production' ? '/fpv-faque' : '',
     images: {
         remotePatterns: [
             {

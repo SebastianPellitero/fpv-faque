@@ -1,40 +1,62 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# fpv-faque
+
+> A showcase website for FPV drone videography — built to help a passionate pilot share his work and grow his audience.
+
+Live at [fpv-faque.vercel.app](https://fpv-faque.vercel.app)
+
+---
+
+## About
+
+fpv-faque is a personal portfolio site for an FPV drone pilot. The goal is simple: show off cinematic drone footage, reach potential clients, and turn a hobby into something more. Built with care so the visuals do the talking.
+
+## Features
+
+- 🎬 Video showcase with YouTube embeds and cinematic background video
+- 🌍 Bilingual — English and Spanish (via `next-intl`)
+- ⚡ Fast and lightweight with `react-lite-youtube-embed`
+- 📱 Fully responsive
+
+## Tech Stack
+
+- [Next.js 15](https://nextjs.org) (App Router)
+- [TypeScript](https://www.typescriptlang.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [next-intl](https://next-intl-docs.vercel.app) — i18n routing (EN / ES)
+- [react-lite-youtube-embed](https://github.com/ibrahimcesar/react-lite-youtube-embed)
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) — it'll redirect to `/en` by default.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+  app/
+    [locale]/       # i18n routing
+  components/       # UI components
+messages/
+  en.json           # English translations
+  es.json           # Spanish translations
+public/
+  videos/           # Background video assets
+  images/           # Static images
+```
 
-## Learn More
+## Internationalization
 
-To learn more about Next.js, take a look at the following resources:
+The app supports English (`/en`) and Spanish (`/es`). Translations live in `messages/`. To add a new language, add a JSON file there and update the `next-intl` config.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deployed on [Vercel](https://vercel.com). Each push to `main` triggers a new production deployment automatically.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# fpv-faque
->>>>>>> 852511af6c7db753a412903412553ca908ce21cd
+Made with 🚁 by [Sebastian Pellitero](https://sebastianpellitero.dev) for a friend who flies things.
