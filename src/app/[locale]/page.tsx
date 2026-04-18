@@ -4,6 +4,7 @@ import { Navbar } from '@/components/layout/Navbar';
 import { Hero } from '@/components/sections/Hero';
 import { CinematicIntro } from '@/components/sections/CinematicIntro';
 import { WorkCarousel } from '@/components/sections/WorkCarousel';
+import { FleetGrid } from '@/components/sections/FleetGrid';
 import { Contact } from '@/components/sections/Contact';
 import { DroneCursorLoader } from '@/components/ui/DroneCursorLoader';
 
@@ -69,6 +70,7 @@ export default function Home() {
                 <Hero />
                 <CinematicIntro />
                 <WorkCarousel />
+                <FleetGrid />
                 <Contact />
             </main>
         </>

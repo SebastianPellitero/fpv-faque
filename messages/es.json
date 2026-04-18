@@ -37,6 +37,96 @@
         "description": "Cineasta con dron FPV que captura el mundo desde una nueva perspectiva. Videografía aérea cinemática para marcas, eventos y producciones.",
         "ogImageAlt": "Dron FPV en vuelo sobre paisaje montañoso"
     },
+    "fleet": {
+        "sectionTitle": "La Flota",
+        "statusActive": "Activo",
+        "statusRetired": "Retirado",
+        "statusRepair": "En Reparación",
+        "statusSold": "Vendido",
+        "purchased": "Comprado",
+        "drones": [
+            {
+                "name": "Drone 1",
+                "status": "active",
+                "purchaseDate": "2024-01",
+                "specs": ["250g", "4K/60fps", "6km alcance"],
+                "image": "/images/fleet/drone1.jpg",
+                "description": "Equipo principal de freestyle cinemático"
+            },
+            {
+                "name": "Drone 2",
+                "status": "active",
+                "purchaseDate": "2023-06",
+                "specs": ["~700g", "4K/30fps", "10km alcance"],
+                "image": "/images/fleet/drone2.jpg",
+                "description": "Crucero de largo alcance"
+            },
+            {
+                "name": "Drone 3",
+                "status": "repair",
+                "purchaseDate": "2022-11",
+                "specs": ["180g", "1080p/120fps", "500m alcance"],
+                "image": "/images/fleet/drone3.jpg",
+                "description": "Micro whoop para grabaciones interiores"
+            },
+            {
+                "name": "Drone 4",
+                "status": "active",
+                "purchaseDate": "2024-05",
+                "specs": ["295g", "4K/120fps", "HDR"],
+                "image": "/images/fleet/drone4.jpg",
+                "description": "Equipo de cámara lenta a alta velocidad"
+            },
+            {
+                "name": "Drone 5",
+                "status": "retired",
+                "purchaseDate": "2021-03",
+                "specs": ["~900g", "2.7K/60fps", "gimbal 3 ejes"],
+                "image": "/images/fleet/drone5.jpg",
+                "description": "Mi primer dron — me enseñó todo"
+            },
+            {
+                "name": "Drone 6",
+                "status": "active",
+                "purchaseDate": "2023-09",
+                "specs": ["~500g", "4K/60fps", "detección de obstáculos"],
+                "image": "/images/fleet/drone6.jpg",
+                "description": "Caballo de batalla para rodajes con clientes"
+            },
+            {
+                "name": "Drone 7",
+                "status": "sold",
+                "purchaseDate": "2022-07",
+                "specs": ["~600g", "4K/30fps", "retorno GPS"],
+                "image": "/images/fleet/drone7.jpg",
+                "description": "Vendido al renovar la flota"
+            },
+            {
+                "name": "Drone 8",
+                "status": "active",
+                "purchaseDate": "2025-01",
+                "specs": ["~1.2kg", "6K/30fps", "sensor 1 pulgada"],
+                "image": "/images/fleet/drone8.jpg",
+                "description": "Carga útil de cine para trabajo comercial"
+            },
+            {
+                "name": "Drone 9",
+                "status": "repair",
+                "purchaseDate": "2023-11",
+                "specs": ["75mm", "1080p/120fps", "motores brushless"],
+                "image": "/images/fleet/drone9.jpg",
+                "description": "Whoop de carreras — accidentado a plena velocidad"
+            },
+            {
+                "name": "Drone 10",
+                "status": "active",
+                "purchaseDate": "2024-09",
+                "specs": ["~800g", "4K/60fps", "12km alcance"],
+                "image": "/images/fleet/drone10.jpg",
+                "description": "Último explorador de largo alcance"
+            }
+        ]
+    },
     "contact": {
         "connectWith": "Conéctate conmigo",
         "scrollToContinue": "Desplázate para continuar",

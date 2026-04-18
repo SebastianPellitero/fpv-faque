@@ -37,6 +37,96 @@
         "description": "FPV drone filmmaker capturing the world from a new perspective. Cinematic aerial videography for brands, events, and productions.",
         "ogImageAlt": "FPV drone in flight over mountain landscape"
     },
+    "fleet": {
+        "sectionTitle": "The Fleet",
+        "statusActive": "Active",
+        "statusRetired": "Retired",
+        "statusRepair": "In Repair",
+        "statusSold": "Sold",
+        "purchased": "Purchased",
+        "drones": [
+            {
+                "name": "Drone 1",
+                "status": "active",
+                "purchaseDate": "2024-01",
+                "specs": ["250g", "4K/60fps", "6km range"],
+                "image": "/images/fleet/drone1.jpg",
+                "description": "Main cinematic freestyle rig"
+            },
+            {
+                "name": "Drone 2",
+                "status": "active",
+                "purchaseDate": "2023-06",
+                "specs": ["~700g", "4K/30fps", "10km range"],
+                "image": "/images/fleet/drone2.jpg",
+                "description": "Long-range cruiser"
+            },
+            {
+                "name": "Drone 3",
+                "status": "repair",
+                "purchaseDate": "2022-11",
+                "specs": ["180g", "1080p/120fps", "500m range"],
+                "image": "/images/fleet/drone3.jpg",
+                "description": "Micro whoop for indoor shoots"
+            },
+            {
+                "name": "Drone 4",
+                "status": "active",
+                "purchaseDate": "2024-05",
+                "specs": ["295g", "4K/120fps", "HDR"],
+                "image": "/images/fleet/drone4.jpg",
+                "description": "High-framerate slow-motion rig"
+            },
+            {
+                "name": "Drone 5",
+                "status": "retired",
+                "purchaseDate": "2021-03",
+                "specs": ["~900g", "2.7K/60fps", "3-axis gimbal"],
+                "image": "/images/fleet/drone5.jpg",
+                "description": "First drone — taught me everything"
+            },
+            {
+                "name": "Drone 6",
+                "status": "active",
+                "purchaseDate": "2023-09",
+                "specs": ["~500g", "4K/60fps", "obstacle avoidance"],
+                "image": "/images/fleet/drone6.jpg",
+                "description": "Backup workhorse for client shoots"
+            },
+            {
+                "name": "Drone 7",
+                "status": "sold",
+                "purchaseDate": "2022-07",
+                "specs": ["~600g", "4K/30fps", "GPS return home"],
+                "image": "/images/fleet/drone7.jpg",
+                "description": "Sold after upgrading the fleet"
+            },
+            {
+                "name": "Drone 8",
+                "status": "active",
+                "purchaseDate": "2025-01",
+                "specs": ["~1.2kg", "6K/30fps", "1-inch sensor"],
+                "image": "/images/fleet/drone8.jpg",
+                "description": "Cinema-grade payload for commercial work"
+            },
+            {
+                "name": "Drone 9",
+                "status": "repair",
+                "purchaseDate": "2023-11",
+                "specs": ["75mm", "1080p/120fps", "Brushless motors"],
+                "image": "/images/fleet/drone9.jpg",
+                "description": "Tiny whoop racer — crashed at full throttle"
+            },
+            {
+                "name": "Drone 10",
+                "status": "active",
+                "purchaseDate": "2024-09",
+                "specs": ["~800g", "4K/60fps", "12km range"],
+                "image": "/images/fleet/drone10.jpg",
+                "description": "Latest long-range explorer"
+            }
+        ]
+    },
     "contact": {
         "connectWith": "Connect with me",
         "scrollToContinue": "Scroll to continue",
