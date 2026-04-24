@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { formatPurchaseDate, getDroneInitials } from '@/lib/droneUtils';
 
 export interface DroneEntry {
     name: string;
@@ -30,12 +31,7 @@ const STATUS_KEY: Record<DroneEntry['status'], string> = {
 };
 
 function DronePlaceholder({ name }: { name: string }) {
-    const initials = name
-        .split(/\s+/)
-        .slice(0, 2)
-        .map(w => w[0])
-        .join('')
-        .toUpperCase();
+    const initials = getDroneInitials(name);
 
     return (
         <div
@@ -62,13 +58,7 @@ export function DroneCard({ drone }: DroneCardProps) {
     const [imgError, setImgError] = useState(false);
     const hasImage = drone.image && !imgError;
 
-    // Format "2024-01" → "Jan 2024"
-    const formattedDate = (() => {
-        const [year, month] = drone.purchaseDate.split('-');
-        if (!month) return year;
-        const date = new Date(Number(year), Number(month) - 1);
-        return date.toLocaleDateString(undefined, { month: 'short', year: 'numeric' });
-    })();
+    const formattedDate = formatPurchaseDate(drone.purchaseDate);
 
     return (
         <div className='fleet-card flex flex-col bg-[var(--color-surface)] rounded-xl overflow-hidden border border-[var(--color-border)] opacity-0'>

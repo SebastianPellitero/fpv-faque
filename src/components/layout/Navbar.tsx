@@ -31,6 +31,12 @@ export function Navbar() {
             <nav className='flex items-center gap-4 md:gap-6 shrink-0'>
                 {/* Nav links — hidden on mobile */}
                 <a
+                    href='#services'
+                    className='hidden md:block text-sm text-[var(--color-muted)] hover:text-[var(--color-foreground)] transition-colors duration-200'
+                >
+                    {t('services')}
+                </a>
+                <a
                     href='#work'
                     className='hidden md:block text-sm text-[var(--color-muted)] hover:text-[var(--color-foreground)] transition-colors duration-200'
                 >

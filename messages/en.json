@@ -1,5 +1,6 @@
 {
     "nav": {
+        "services": "Services",
         "work": "Work",
         "fleet": "Fleet",
         "contact": "Contact",
@@ -125,6 +126,36 @@
                 "specs": ["~800g", "4K/60fps", "12km range"],
                 "image": "/images/fleet/drone10.jpg",
                 "description": "Latest long-range explorer"
+            }
+        ]
+    },
+    "filmTypes": {
+        "sectionTitle": "What We Film",
+        "categories": [
+            {
+                "key": "events",
+                "title": "Events",
+                "description": "Festivals, gatherings, fairs, marathons, concerts, outdoors or indoors. Hikes, trekking, weddings, birthdays, and all kinds of celebrations."
+            },
+            {
+                "key": "people",
+                "title": "People",
+                "description": "Safe proximity flights around people. Workers performing activities. Yoga, meditation, mountaineering, extreme sports, and all kinds of outdoor activities."
+            },
+            {
+                "key": "vehicles",
+                "title": "Vehicles",
+                "description": "Bicycles, motorcycles, cars, light aircraft, construction or agricultural equipment. High-speed chase shots. Race and sports event coverage."
+            },
+            {
+                "key": "properties",
+                "title": "Properties",
+                "description": "Home and office tours, with or without people. Exterior-to-interior transitions through doors and windows. Art exhibitions and museums. Construction progress tracking. Visual inspection of tall or hard-to-access structures."
+            },
+            {
+                "key": "landscapes",
+                "title": "Landscapes",
+                "description": "Mountains, ranches, ponds, wildlife. Horse riding, camping, and excursions. Showcasing tourist destinations with stunning natural beauty."
             }
         ]
     },

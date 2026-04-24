@@ -1,5 +1,6 @@
 {
     "nav": {
+        "services": "Servicios",
         "work": "Trabajos",
         "fleet": "Flota",
         "contact": "Contacto",
@@ -125,6 +126,36 @@
                 "specs": ["~800g", "4K/60fps", "12km alcance"],
                 "image": "/images/fleet/drone10.jpg",
                 "description": "Último explorador de largo alcance"
+            }
+        ]
+    },
+    "filmTypes": {
+        "sectionTitle": "Lo que filmamos",
+        "categories": [
+            {
+                "key": "events",
+                "title": "Eventos",
+                "description": "Festivales, encuentros, ferias, maratones, recitales, al aire libre o en interiores. Caminatas, trekking, bodas, cumpleaños y todo tipo de fiestas."
+            },
+            {
+                "key": "people",
+                "title": "Personas",
+                "description": "Vuelos de proximidad de forma segura. Personal de trabajo realizando actividades. Yoga, meditación, alpinismo, deportes extremos y todo tipo de actividades al aire libre."
+            },
+            {
+                "key": "vehicles",
+                "title": "Vehículos",
+                "description": "Bicicletas, motos, autos, avionetas, equipos de construcción o agrícolas. Persecuciones a alta velocidad. Cobertura de carreras y eventos deportivos."
+            },
+            {
+                "key": "properties",
+                "title": "Inmuebles",
+                "description": "Home y office tours, con o sin gente. Transición exterior-interior a través de puertas y ventanas. Exhibición de obras de arte y museos. Verificación de estados constructivos y su evolución. Inspección ocular en estructuras altas de difícil acceso."
+            },
+            {
+                "key": "landscapes",
+                "title": "Paisajes",
+                "description": "Sierras, quintas, estanques, vida silvestre. Cabalgatas, campamentos y excursiones. Exposición de lugares turísticos con gran belleza natural."
             }
         ]
     },

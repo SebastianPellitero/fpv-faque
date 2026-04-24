@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { Navbar } from '@/components/layout/Navbar';
 import { Hero } from '@/components/sections/Hero';
 import { CinematicIntro } from '@/components/sections/CinematicIntro';
+import { FilmTypes } from '@/components/sections/FilmTypes';
 import { WorkCarousel } from '@/components/sections/WorkCarousel';
 import { FleetGrid } from '@/components/sections/FleetGrid';
 import { Contact } from '@/components/sections/Contact';
@@ -69,6 +70,7 @@ export default function Home() {
             <main>
                 <Hero />
                 <CinematicIntro />
+                <FilmTypes />
                 <WorkCarousel />
                 <FleetGrid />
                 <Contact />
