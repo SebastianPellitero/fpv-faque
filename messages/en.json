@@ -45,87 +45,57 @@
         "statusRetired": "Retired",
         "statusRepair": "In Repair",
         "statusSold": "Sold",
+        "statusPending": "Pending",
         "purchased": "Purchased",
         "drones": [
             {
-                "name": "Drone 1",
+                "name": "DJI Avata 2",
                 "status": "active",
-                "purchaseDate": "2024-01",
-                "specs": ["250g", "4K/60fps", "6km range"],
-                "image": "/images/fleet/drone1.jpg",
-                "description": "Main cinematic freestyle rig"
+                "specs": ["4K RAW", "D-Log M 10-bit", "Cinewhoop"],
+                "image": "/images/fleet/dji-avata-2.jpg",
+                "description": "Fast, powerful and safe drone with 4K filming, for indoor or outdoor shots. RAW filming with 10-bit D-Log M color, gyroscopic stabilization for high-quality cinematic recordings."
             },
             {
-                "name": "Drone 2",
+                "name": "DJI Neo",
                 "status": "active",
-                "purchaseDate": "2023-06",
-                "specs": ["~700g", "4K/30fps", "10km range"],
-                "image": "/images/fleet/drone2.jpg",
-                "description": "Long-range cruiser"
+                "specs": ["Tiny Whoop", "Pursuit mode", "Multi-control"],
+                "image": "/images/fleet/dji-neo.jpg",
+                "description": "Super compact, versatile and safe, even for shots with children. Autonomous pursuit mode, stabilized mode, and connections to multiple controls. Ideal for extremely tight spaces."
             },
             {
-                "name": "Drone 3",
+                "name": "Happymodel Mobula7",
                 "status": "repair",
-                "purchaseDate": "2022-11",
-                "specs": ["180g", "1080p/120fps", "500m range"],
-                "image": "/images/fleet/drone3.jpg",
-                "description": "Micro whoop for indoor shoots"
+                "specs": ["Tiny Whoop", "75mm"],
+                "image": "/images/fleet/mobula7.jpg",
+                "description": "Also known as \"el modelo japi\". It was my first FPV drone. It had so many upgrades that none of its original parts remain — it's a completely different beast. So... is it the same drone? Who are we? Why do we exist?"
             },
             {
-                "name": "Drone 4",
-                "status": "active",
-                "purchaseDate": "2024-05",
-                "specs": ["295g", "4K/120fps", "HDR"],
-                "image": "/images/fleet/drone4.jpg",
-                "description": "High-framerate slow-motion rig"
+                "name": "iFlight Cidora SL5-E",
+                "status": "pending",
+                "specs": ["Racing", "170 km/h", "5 inch"],
+                "image": "/images/fleet/cidora-sl5e.jpg",
+                "description": "A roaring beast that can break necks. Ideal for high-speed vehicle chasing. Top speed: 170 km/h."
             },
             {
-                "name": "Drone 5",
-                "status": "retired",
-                "purchaseDate": "2021-03",
-                "specs": ["~900g", "2.7K/60fps", "3-axis gimbal"],
-                "image": "/images/fleet/drone5.jpg",
-                "description": "First drone — taught me everything"
+                "name": "iFlight Nazgul5 V2",
+                "status": "pending",
+                "specs": ["Freestyle", "160 km/h", "5 inch"],
+                "image": "/images/fleet/nazgul5-v2.jpg",
+                "description": "High-power drone built to take hard hits. Ideal for extreme acrobatic shots. Top speed: 160 km/h."
             },
             {
-                "name": "Drone 6",
-                "status": "active",
-                "purchaseDate": "2023-09",
-                "specs": ["~500g", "4K/60fps", "obstacle avoidance"],
-                "image": "/images/fleet/drone6.jpg",
-                "description": "Backup workhorse for client shoots"
-            },
-            {
-                "name": "Drone 7",
-                "status": "sold",
-                "purchaseDate": "2022-07",
-                "specs": ["~600g", "4K/30fps", "GPS return home"],
-                "image": "/images/fleet/drone7.jpg",
-                "description": "Sold after upgrading the fleet"
-            },
-            {
-                "name": "Drone 8",
-                "status": "active",
-                "purchaseDate": "2025-01",
-                "specs": ["~1.2kg", "6K/30fps", "1-inch sensor"],
-                "image": "/images/fleet/drone8.jpg",
-                "description": "Cinema-grade payload for commercial work"
-            },
-            {
-                "name": "Drone 9",
+                "name": "JJR/C Sol",
                 "status": "repair",
-                "purchaseDate": "2023-11",
-                "specs": ["75mm", "1080p/120fps", "Brushless motors"],
-                "image": "/images/fleet/drone9.jpg",
-                "description": "Tiny whoop racer — crashed at full throttle"
+                "specs": ["Selfie", "Wi-Fi", "Foldable"],
+                "image": "/images/fleet/jjrc-sol.jpg",
+                "description": "Foldable to the size and shape of a phone. Wi-Fi camera control. \"Don't tell anyone I have a drone in my pocket or they'll kick me out of the birthday party\"."
             },
             {
-                "name": "Drone 10",
+                "name": "Red Helicopter",
                 "status": "active",
-                "purchaseDate": "2024-09",
-                "specs": ["~800g", "4K/60fps", "12km range"],
-                "image": "/images/fleet/drone10.jpg",
-                "description": "Latest long-range explorer"
+                "specs": ["Helicopter", "Red"],
+                "image": "/images/fleet/helicoptero-rojo.jpg",
+                "description": "A great Peruvian helicopter for flying over any environment and scaring the elders. It is recommended not to have papers on the table. It is red."
             }
         ]
     },

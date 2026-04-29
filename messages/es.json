@@ -45,87 +45,57 @@
         "statusRetired": "Retirado",
         "statusRepair": "En Reparación",
         "statusSold": "Vendido",
+        "statusPending": "En espera",
         "purchased": "Comprado",
         "drones": [
             {
-                "name": "Drone 1",
+                "name": "DJI Avata 2",
                 "status": "active",
-                "purchaseDate": "2024-01",
-                "specs": ["250g", "4K/60fps", "6km alcance"],
-                "image": "/images/fleet/drone1.jpg",
-                "description": "Equipo principal de freestyle cinemático"
+                "specs": ["4K RAW", "D-Log M 10-bit", "Cinewhoop"],
+                "image": "/images/fleet/dji-avata-2.jpg",
+                "description": "Drone rápido, potente y seguro, con filmación a 4K, para tomas en interior o exterior. Filmación en RAW con color 10-bit D-Log M, estabilización giroscópica para grabaciones cinematográficas de gran calidad."
             },
             {
-                "name": "Drone 2",
+                "name": "DJI Neo",
                 "status": "active",
-                "purchaseDate": "2023-06",
-                "specs": ["~700g", "4K/30fps", "10km alcance"],
-                "image": "/images/fleet/drone2.jpg",
-                "description": "Crucero de largo alcance"
+                "specs": ["Tiny Whoop", "Modo persecución", "Multi-control"],
+                "image": "/images/fleet/dji-neo.jpg",
+                "description": "Súper compacto, versátil y seguro, incluso para las tomas con niños. Modo de persecución autónomo, modo estabilizado, y conexiones a múltiples controles. Ideal para espacios extremadamente reducidos."
             },
             {
-                "name": "Drone 3",
+                "name": "Happymodel Mobula7",
                 "status": "repair",
-                "purchaseDate": "2022-11",
-                "specs": ["180g", "1080p/120fps", "500m alcance"],
-                "image": "/images/fleet/drone3.jpg",
-                "description": "Micro whoop para grabaciones interiores"
+                "specs": ["Tiny Whoop", "75mm"],
+                "image": "/images/fleet/mobula7.jpg",
+                "description": "También conocido como \"modelo japi\". Fue mi primer drone FPV. Tuvo tantas mejoras que ya ninguna de sus piezas es la original, es una monstruosidad diferente. Entonces, ¿es el mismo drone? ¿Quiénes somos? ¿Por qué existimos?"
             },
             {
-                "name": "Drone 4",
-                "status": "active",
-                "purchaseDate": "2024-05",
-                "specs": ["295g", "4K/120fps", "HDR"],
-                "image": "/images/fleet/drone4.jpg",
-                "description": "Equipo de cámara lenta a alta velocidad"
+                "name": "iFlight Cidora SL5-E",
+                "status": "pending",
+                "specs": ["Racing", "170 km/h", "5 pulgadas"],
+                "image": "/images/fleet/cidora-sl5e.jpg",
+                "description": "Una bestia rugiente que puede destrozar cabezas. Ideal para persecución de vehículos a alta velocidad. Velocidad máxima: 170 km/h."
             },
             {
-                "name": "Drone 5",
-                "status": "retired",
-                "purchaseDate": "2021-03",
-                "specs": ["~900g", "2.7K/60fps", "gimbal 3 ejes"],
-                "image": "/images/fleet/drone5.jpg",
-                "description": "Mi primer dron — me enseñó todo"
+                "name": "iFlight Nazgul5 V2",
+                "status": "pending",
+                "specs": ["Freestyle", "160 km/h", "5 pulgadas"],
+                "image": "/images/fleet/nazgul5-v2.jpg",
+                "description": "Drone de alta potencia con resistencia a los golpes fuertes. Ideal para tomas acrobáticas extremas. Velocidad máxima: 160 km/h."
             },
             {
-                "name": "Drone 6",
-                "status": "active",
-                "purchaseDate": "2023-09",
-                "specs": ["~500g", "4K/60fps", "detección de obstáculos"],
-                "image": "/images/fleet/drone6.jpg",
-                "description": "Caballo de batalla para rodajes con clientes"
-            },
-            {
-                "name": "Drone 7",
-                "status": "sold",
-                "purchaseDate": "2022-07",
-                "specs": ["~600g", "4K/30fps", "retorno GPS"],
-                "image": "/images/fleet/drone7.jpg",
-                "description": "Vendido al renovar la flota"
-            },
-            {
-                "name": "Drone 8",
-                "status": "active",
-                "purchaseDate": "2025-01",
-                "specs": ["~1.2kg", "6K/30fps", "sensor 1 pulgada"],
-                "image": "/images/fleet/drone8.jpg",
-                "description": "Carga útil de cine para trabajo comercial"
-            },
-            {
-                "name": "Drone 9",
+                "name": "JJR/C Sol",
                 "status": "repair",
-                "purchaseDate": "2023-11",
-                "specs": ["75mm", "1080p/120fps", "motores brushless"],
-                "image": "/images/fleet/drone9.jpg",
-                "description": "Whoop de carreras — accidentado a plena velocidad"
+                "specs": ["Selfie", "Wi-Fi", "Plegable"],
+                "image": "/images/fleet/jjrc-sol.jpg",
+                "description": "Plegable con el tamaño y la forma del celular. Control de cámara por Wi-Fi. \"No le digan a nadie que tengo un drone en el bolsillo, sino me echan del cumpleaños\"."
             },
             {
-                "name": "Drone 10",
+                "name": "Helicóptero rojo",
                 "status": "active",
-                "purchaseDate": "2024-09",
-                "specs": ["~800g", "4K/60fps", "12km alcance"],
-                "image": "/images/fleet/drone10.jpg",
-                "description": "Último explorador de largo alcance"
+                "specs": ["Helicóptero", "Rojo"],
+                "image": "/images/fleet/helicoptero-rojo.jpg",
+                "description": "Un gran helicóptero peruano para sobrevolar cualquier ambiente y asustar a las viejas. Se recomienda no tener papeles sobre la mesa. Es rojo."
             }
         ]
     },

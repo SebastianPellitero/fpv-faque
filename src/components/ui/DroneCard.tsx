@@ -5,8 +5,8 @@ import { formatPurchaseDate, getDroneInitials } from '@/lib/droneUtils';
 
 export interface DroneEntry {
     name: string;
-    status: 'active' | 'retired' | 'repair' | 'sold';
-    purchaseDate: string;
+    status: 'active' | 'retired' | 'repair' | 'sold' | 'pending';
+    purchaseDate?: string;
     specs: string[];
     image: string;
     description?: string;
@@ -19,6 +19,7 @@ interface DroneCardProps {
 const STATUS_STYLES: Record<DroneEntry['status'], { dot: string; text: string }> = {
     active:  { dot: 'bg-[var(--color-accent)]',  text: 'text-[var(--color-accent)]' },
     repair:  { dot: 'bg-amber-400',               text: 'text-amber-400' },
+    pending: { dot: 'bg-blue-400',                text: 'text-blue-400' },
     retired: { dot: 'bg-[var(--color-muted)]',    text: 'text-[var(--color-muted)]' },
     sold:    { dot: 'bg-[var(--color-muted)]',    text: 'text-[var(--color-muted)]' },
 };
@@ -26,6 +27,7 @@ const STATUS_STYLES: Record<DroneEntry['status'], { dot: string; text: string }>
 const STATUS_KEY: Record<DroneEntry['status'], string> = {
     active:  'statusActive',
     repair:  'statusRepair',
+    pending: 'statusPending',
     retired: 'statusRetired',
     sold:    'statusSold',
 };
@@ -58,7 +60,7 @@ export function DroneCard({ drone }: DroneCardProps) {
     const [imgError, setImgError] = useState(false);
     const hasImage = drone.image && !imgError;
 
-    const formattedDate = formatPurchaseDate(drone.purchaseDate);
+    const formattedDate = drone.purchaseDate ? formatPurchaseDate(drone.purchaseDate) : null;
 
     return (
         <div className='fleet-card flex flex-col bg-[var(--color-surface)] rounded-xl overflow-hidden border border-[var(--color-border)] opacity-0'>
@@ -99,9 +101,11 @@ export function DroneCard({ drone }: DroneCardProps) {
                 )}
 
                 {/* Purchase date */}
-                <p className='text-xs text-[var(--color-muted)]'>
-                    {t('purchased')}: {formattedDate}
-                </p>
+                {formattedDate && (
+                    <p className='text-xs text-[var(--color-muted)]'>
+                        {t('purchased')}: {formattedDate}
+                    </p>
+                )}
 
                 {/* Spec pills */}
                 {drone.specs.length > 0 && (
