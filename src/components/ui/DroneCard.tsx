@@ -5,7 +5,7 @@ import { formatPurchaseDate, getDroneInitials } from '@/lib/droneUtils';
 
 export interface DroneEntry {
     name: string;
-    status: 'active' | 'retired' | 'repair' | 'sold' | 'pending';
+    status: 'active' | 'retired' | 'repair' | 'sold' | 'pending' | 'destroyed' | 'lost';
     purchaseDate?: string;
     specs: string[];
     image: string;
@@ -17,19 +17,23 @@ interface DroneCardProps {
 }
 
 const STATUS_STYLES: Record<DroneEntry['status'], { dot: string; text: string }> = {
-    active:  { dot: 'bg-[var(--color-accent)]',  text: 'text-[var(--color-accent)]' },
-    repair:  { dot: 'bg-amber-400',               text: 'text-amber-400' },
-    pending: { dot: 'bg-blue-400',                text: 'text-blue-400' },
-    retired: { dot: 'bg-[var(--color-muted)]',    text: 'text-[var(--color-muted)]' },
-    sold:    { dot: 'bg-[var(--color-muted)]',    text: 'text-[var(--color-muted)]' },
+    active:    { dot: 'bg-[var(--color-accent)]',  text: 'text-[var(--color-accent)]' },
+    repair:    { dot: 'bg-amber-400',               text: 'text-amber-400' },
+    pending:   { dot: 'bg-blue-400',                text: 'text-blue-400' },
+    retired:   { dot: 'bg-[var(--color-muted)]',    text: 'text-[var(--color-muted)]' },
+    sold:      { dot: 'bg-[var(--color-muted)]',    text: 'text-[var(--color-muted)]' },
+    destroyed: { dot: 'bg-red-500',                 text: 'text-red-500' },
+    lost:      { dot: 'bg-[var(--color-muted)]',    text: 'text-[var(--color-muted)]' },
 };
 
 const STATUS_KEY: Record<DroneEntry['status'], string> = {
-    active:  'statusActive',
-    repair:  'statusRepair',
-    pending: 'statusPending',
-    retired: 'statusRetired',
-    sold:    'statusSold',
+    active:    'statusActive',
+    repair:    'statusRepair',
+    pending:   'statusPending',
+    retired:   'statusRetired',
+    sold:      'statusSold',
+    destroyed: 'statusDestroyed',
+    lost:      'statusLost',
 };
 
 function DronePlaceholder({ name }: { name: string }) {

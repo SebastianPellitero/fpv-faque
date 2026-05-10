@@ -46,6 +46,8 @@
         "statusRepair": "En Reparación",
         "statusSold": "Vendido",
         "statusPending": "En espera",
+        "statusDestroyed": "Destruido",
+        "statusLost": "Perdido",
         "purchased": "Comprado",
         "drones": [
             {
@@ -96,6 +98,69 @@
                 "specs": ["Helicóptero", "Rojo"],
                 "image": "/images/fleet/helicoptero-rojo.jpg",
                 "description": "Un gran helicóptero peruano para sobrevolar cualquier ambiente y asustar a las viejas. Se recomienda no tener papeles sobre la mesa. Es rojo."
+            },
+            {
+                "name": "Eachine E015",
+                "status": "destroyed",
+                "specs": ["Tiny Whoop", "Cámara FPV"],
+                "image": "/images/fleet/eachine-e015.jpg",
+                "description": "Un drone que se transforma en un aerodeslizador que se transforma en un hidrodeslizador. El verdadero maestro Aire que domina Agua y Tierra, y encima tiene Fuego. Fue modificado con cámara FPV, y se le aumentó la potencia para derrapes extremos."
+            },
+            {
+                "name": "Realacc R10 Mini",
+                "status": "lost",
+                "specs": ["Tiny Whoop"],
+                "image": "/images/fleet/realacc-r10-mini.jpg",
+                "description": "Dedicado exclusivamente a pasar por espacios pequeños y a estrellarse con todo. Fácil de controlar, divertido. El paso antes de volar FPV. Compré varios para regalar."
+            },
+            {
+                "name": "Drone rojo",
+                "status": "active",
+                "specs": ["X-Drone", "Cámara FPV", "Rojo"],
+                "image": "/images/fleet/drone-rojo.jpg",
+                "description": "Lo compré por 300 pesos. Prácticamente irrompible, y muy maniobrable. Sufrió varias modificaciones: Cámara FPV, luces (rojas obviamente), conexión para baterías más grandes. Me enseñó el dominio LoS. Es rojo."
+            },
+            {
+                "name": "Drone blanco",
+                "status": "repair",
+                "specs": ["X-Drone", "Cámara Wi-Fi"],
+                "image": "/images/fleet/drone-blanco.jpg",
+                "description": "Drone pesado, cámara Wi-Fi. Llama la atención en cualquier lugar por su ruido. Tuvo varias modificaciones en el chasis para disminuir el peso. Requiere reparación constante."
+            },
+            {
+                "name": "Force1 UFO3000",
+                "status": "active",
+                "specs": ["LED Drone"],
+                "image": "/images/fleet/force1-ufo3000.jpg",
+                "description": "Nave luminosa para navegar fácilmente en espacios estrechos con poca luz. Su mayor logro fue pasar una pieza crítica por un agujero de 20cm en medio de la oscuridad, a donde ningún ser humano podía pasar, para hacer un cableado."
+            },
+            {
+                "name": "Drone Skywalker",
+                "status": "active",
+                "specs": ["Ducted Drone", "Control por muñeca"],
+                "image": "/images/fleet/drone-skywalker.jpg",
+                "description": "El que usan los jedi. Se controla moviendo la muñeca, lo que da una extraña sensación de poder. Aviso: El drone no es rojo como se ve en la foto. Repito: No es rojo."
+            },
+            {
+                "name": "Drone que se me perdió en la vecina",
+                "status": "lost",
+                "specs": ["X-Drone"],
+                "image": "/images/fleet/drone-vecina.jpg",
+                "description": "Un día me compré un drone y no tuve mejor idea que volarlo ese mismo día a través de la ventana de la casa en Perú. Perdí la señal y fue a parar a una vecina re peruanísima. Nunca más lo recuperé, y \"no lo encontraron\"."
+            },
+            {
+                "name": "Micro helicopterito",
+                "status": "destroyed",
+                "specs": ["Helicóptero", "Wish"],
+                "image": "/images/fleet/micro-helicopterito.jpg",
+                "description": "Me lo compré en Wish. Es increíblemente chiquito, hasta se guarda adentro del control. Su vuelo es tan errático que para girarlo hay que pegar aceleradas muy precisas. Su diversión está en la dificultad de vuelo."
+            },
+            {
+                "name": "Helicóptero verde",
+                "status": "active",
+                "specs": ["Helicóptero", "Verde"],
+                "image": "/images/fleet/helicoptero-verde.jpg",
+                "description": "Hermano menor del helicóptero rojo. Su tamaño lo hace más maniobrable pero más lento."
             }
         ]
     },

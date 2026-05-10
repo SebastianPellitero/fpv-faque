@@ -46,6 +46,8 @@
         "statusRepair": "In Repair",
         "statusSold": "Sold",
         "statusPending": "Pending",
+        "statusDestroyed": "Destroyed",
+        "statusLost": "Lost",
         "purchased": "Purchased",
         "drones": [
             {
@@ -96,6 +98,69 @@
                 "specs": ["Helicopter", "Red"],
                 "image": "/images/fleet/helicoptero-rojo.jpg",
                 "description": "A great Peruvian helicopter for flying over any environment and scaring the elders. It is recommended not to have papers on the table. It is red."
+            },
+            {
+                "name": "Eachine E015",
+                "status": "destroyed",
+                "specs": ["Tiny Whoop", "FPV Camera"],
+                "image": "/images/fleet/eachine-e015.jpg",
+                "description": "A drone that transforms into a hovercraft that transforms into a hydrocraft. The true Airbender mastering Water and Earth — and it also has Fire. Modified with an FPV camera and boosted for extreme drifting."
+            },
+            {
+                "name": "Realacc R10 Mini",
+                "status": "lost",
+                "specs": ["Tiny Whoop"],
+                "image": "/images/fleet/realacc-r10-mini.jpg",
+                "description": "Dedicated exclusively to squeezing through tight spaces and crashing into everything. Easy to fly, great fun. The step before going FPV. Bought several to give away."
+            },
+            {
+                "name": "Red Drone",
+                "status": "active",
+                "specs": ["X-Drone", "FPV Camera", "Red"],
+                "image": "/images/fleet/drone-rojo.jpg",
+                "description": "Bought it for 300 pesos. Nearly indestructible and very maneuverable. Modified several times: FPV camera, lights (red, obviously), connector for bigger batteries. Taught me Line of Sight control. It is red."
+            },
+            {
+                "name": "White Drone",
+                "status": "repair",
+                "specs": ["X-Drone", "Wi-Fi Camera"],
+                "image": "/images/fleet/drone-blanco.jpg",
+                "description": "Heavy drone with a Wi-Fi camera. Turns heads everywhere it flies — mostly because of the noise. Had several chassis modifications to reduce weight. Requires constant repair."
+            },
+            {
+                "name": "Force1 UFO3000",
+                "status": "active",
+                "specs": ["LED Drone"],
+                "image": "/images/fleet/force1-ufo3000.jpg",
+                "description": "A glowing ship for navigating tight spaces in low light. Its greatest achievement: threading a critical part through a 20cm hole in total darkness, somewhere no human could reach, to run wiring."
+            },
+            {
+                "name": "Drone Skywalker",
+                "status": "active",
+                "specs": ["Ducted Drone", "Wrist control"],
+                "image": "/images/fleet/drone-skywalker.jpg",
+                "description": "The one Jedis use. Controlled by moving your wrist, which gives a strange sense of power. Warning: the drone is not red like in the photo. I repeat: it is not red."
+            },
+            {
+                "name": "The Drone I Lost at the Neighbor's",
+                "status": "lost",
+                "specs": ["X-Drone"],
+                "image": "/images/fleet/drone-vecina.jpg",
+                "description": "One day I bought a drone and had the brilliant idea of flying it that same day through the window of our house in Peru. Lost the signal and it landed at a very Peruvian neighbor's place. Never got it back. They 'didn't find it'."
+            },
+            {
+                "name": "Micro Helicopterito",
+                "status": "destroyed",
+                "specs": ["Helicopter", "Wish"],
+                "image": "/images/fleet/micro-helicopterito.jpg",
+                "description": "Bought it on Wish. Incredibly tiny — it even fits inside the controller. Its flight is so erratic that turning it requires very precise throttle bursts. The fun is in how hard it is to fly."
+            },
+            {
+                "name": "Green Helicopter",
+                "status": "active",
+                "specs": ["Helicopter", "Green"],
+                "image": "/images/fleet/helicoptero-verde.jpg",
+                "description": "Little brother of the red helicopter. Its smaller size makes it more maneuverable but slower."
             }
         ]
     },
