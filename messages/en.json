@@ -41,6 +41,7 @@
     },
     "fleet": {
         "sectionTitle": "The Fleet",
+        "filterAll": "All",
         "statusActive": "Active",
         "statusRetired": "Retired",
         "statusRepair": "In Repair",

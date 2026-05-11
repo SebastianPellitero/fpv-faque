@@ -41,6 +41,7 @@
     },
     "fleet": {
         "sectionTitle": "La Flota",
+        "filterAll": "Todos",
         "statusActive": "Activo",
         "statusRetired": "Retirado",
         "statusRepair": "En Reparación",
