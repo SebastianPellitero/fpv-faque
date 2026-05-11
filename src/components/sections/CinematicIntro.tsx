@@ -58,8 +58,6 @@ export function CinematicIntro() {
 
             <VideoBackground
                 src={assetUrl('/videos/cinematic-bg.mp4')}
-                webmSrc={assetUrl('/videos/cinematic-bg.webm')}
-                poster={assetUrl('/images/cinematic-poster.jpg')}
             />
 
             {/* Parallax text layer */}
@@ -71,7 +69,7 @@ export function CinematicIntro() {
                 <p className='text-5xl md:text-7xl lg:text-8xl font-display font-bold text-white leading-none text-balance'>
                     {t('tagline')}
                 </p>
-                <div className='mt-6 w-16 h-px bg-[var(--color-accent)] mx-auto opacity-80' />
+                <div className='mt-6 w-16 h-px bg-accent mx-auto opacity-80' />
             </div>
         </section>
     );

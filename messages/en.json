@@ -118,14 +118,14 @@
                 "name": "Red Drone",
                 "status": "active",
                 "specs": ["X-Drone", "FPV Camera", "Red"],
-                "image": "/images/fleet/drone-rojo.jpg",
+                "image": "",
                 "description": "Bought it for 300 pesos. Nearly indestructible and very maneuverable. Modified several times: FPV camera, lights (red, obviously), connector for bigger batteries. Taught me Line of Sight control. It is red."
             },
             {
                 "name": "White Drone",
                 "status": "repair",
                 "specs": ["X-Drone", "Wi-Fi Camera"],
-                "image": "/images/fleet/drone-blanco.jpg",
+                "image": "",
                 "description": "Heavy drone with a Wi-Fi camera. Turns heads everywhere it flies — mostly because of the noise. Had several chassis modifications to reduce weight. Requires constant repair."
             },
             {
@@ -139,21 +139,21 @@
                 "name": "Drone Skywalker",
                 "status": "active",
                 "specs": ["Ducted Drone", "Wrist control"],
-                "image": "/images/fleet/drone-skywalker.jpg",
+                "image": "",
                 "description": "The one Jedis use. Controlled by moving your wrist, which gives a strange sense of power. Warning: the drone is not red like in the photo. I repeat: it is not red."
             },
             {
                 "name": "The Drone I Lost at the Neighbor's",
                 "status": "lost",
                 "specs": ["X-Drone"],
-                "image": "/images/fleet/drone-vecina.jpg",
+                "image": "",
                 "description": "One day I bought a drone and had the brilliant idea of flying it that same day through the window of our house in Peru. Lost the signal and it landed at a very Peruvian neighbor's place. Never got it back. They 'didn't find it'."
             },
             {
                 "name": "Micro Helicopterito",
                 "status": "destroyed",
                 "specs": ["Helicopter", "Wish"],
-                "image": "/images/fleet/micro-helicopterito.jpg",
+                "image": "",
                 "description": "Bought it on Wish. Incredibly tiny — it even fits inside the controller. Its flight is so erratic that turning it requires very precise throttle bursts. The fun is in how hard it is to fly."
             },
             {

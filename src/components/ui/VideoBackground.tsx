@@ -29,10 +29,12 @@ export function VideoBackground({
             ref={videoRef}
             autoPlay
             loop
+            muted
             playsInline
             poster={poster}
             className={`absolute inset-0 w-full h-full object-cover ${className}`}
             aria-hidden='true'
+            suppressHydrationWarning
         >
             {webmSrc && <source src={webmSrc} type='video/webm' />}
             <source src={src} type='video/mp4' />

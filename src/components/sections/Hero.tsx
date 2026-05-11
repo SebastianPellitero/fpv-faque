@@ -17,7 +17,6 @@ export function Hero() {
     const t = useTranslations('hero');
     const sectionRef = useRef<HTMLElement>(null);
     const headlineRef = useRef<HTMLHeadingElement>(null);
-    const subRef = useRef<HTMLParagraphElement>(null);
     const ctaRef = useRef<HTMLAnchorElement>(null);
 
     const headline = t('headline');
@@ -39,18 +38,6 @@ export function Hero() {
                     duration: 1,
                     ease: 'power3.out',
                     delay: 0.3
-                }
-            );
-
-            gsap.fromTo(
-                subRef.current,
-                { opacity: 0, y: 20 },
-                {
-                    opacity: 1,
-                    y: 0,
-                    duration: 0.8,
-                    ease: 'power2.out',
-                    delay: words.length * 0.07 + 0.6
                 }
             );
 

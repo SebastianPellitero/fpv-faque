@@ -118,14 +118,14 @@
                 "name": "Drone rojo",
                 "status": "active",
                 "specs": ["X-Drone", "Cámara FPV", "Rojo"],
-                "image": "/images/fleet/drone-rojo.jpg",
+                "image": "",
                 "description": "Lo compré por 300 pesos. Prácticamente irrompible, y muy maniobrable. Sufrió varias modificaciones: Cámara FPV, luces (rojas obviamente), conexión para baterías más grandes. Me enseñó el dominio LoS. Es rojo."
             },
             {
                 "name": "Drone blanco",
                 "status": "repair",
                 "specs": ["X-Drone", "Cámara Wi-Fi"],
-                "image": "/images/fleet/drone-blanco.jpg",
+                "image": "",
                 "description": "Drone pesado, cámara Wi-Fi. Llama la atención en cualquier lugar por su ruido. Tuvo varias modificaciones en el chasis para disminuir el peso. Requiere reparación constante."
             },
             {
@@ -139,21 +139,21 @@
                 "name": "Drone Skywalker",
                 "status": "active",
                 "specs": ["Ducted Drone", "Control por muñeca"],
-                "image": "/images/fleet/drone-skywalker.jpg",
+                "image": "",
                 "description": "El que usan los jedi. Se controla moviendo la muñeca, lo que da una extraña sensación de poder. Aviso: El drone no es rojo como se ve en la foto. Repito: No es rojo."
             },
             {
                 "name": "Drone que se me perdió en la vecina",
                 "status": "lost",
                 "specs": ["X-Drone"],
-                "image": "/images/fleet/drone-vecina.jpg",
+                "image": "",
                 "description": "Un día me compré un drone y no tuve mejor idea que volarlo ese mismo día a través de la ventana de la casa en Perú. Perdí la señal y fue a parar a una vecina re peruanísima. Nunca más lo recuperé, y \"no lo encontraron\"."
             },
             {
                 "name": "Micro helicopterito",
                 "status": "destroyed",
                 "specs": ["Helicóptero", "Wish"],
-                "image": "/images/fleet/micro-helicopterito.jpg",
+                "image": "",
                 "description": "Me lo compré en Wish. Es increíblemente chiquito, hasta se guarda adentro del control. Su vuelo es tan errático que para girarlo hay que pegar aceleradas muy precisas. Su diversión está en la dificultad de vuelo."
             },
             {
